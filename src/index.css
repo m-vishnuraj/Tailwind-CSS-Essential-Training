@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    /* html{
+        background-color: lime;
+    } */
+
+    html {
+        @apply bg-lime-500 text-white text-lg font-bold;
+        /* @apply text-white */
+    }
+}
