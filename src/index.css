@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base{
-    /* html{
+    html{
+        @apply text-black;
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+/* @layer base{
+    html{
         background-color: lime;
-    } */
+    }
 
     html {
         @apply bg-lime-500 text-white text-lg font-bold;
-        /* @apply text-white */
+        @apply text-white
     }
-}
+} */
