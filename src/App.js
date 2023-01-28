@@ -1,11 +1,10 @@
 function App() {
-  return <div>
-    <div className="bg-red-400 text-white font-bold p-4">hello</div>
-    <div className="bg-blue-400 text-white font-bold m-4">hello</div>
-
-    <div>
-      <div className="h-16 bg-blue-600 w-36 opacity-20"></div>
-      <div className="bg-red-300 -mt-8">-mt8</div>
+  return <div className="flex w-full">
+    <div className="w-1/6 min-h-screen bg-red-500">
+      sidebar
+    </div>
+    <div className="w-5/6 h-20 bg-green-500">
+      main content
     </div>
   </div>;
 }
